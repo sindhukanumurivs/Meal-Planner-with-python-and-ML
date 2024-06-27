@@ -6,7 +6,7 @@ from ImageFinder import get_images_links as find_image
 from streamlit_echarts import st_echarts
 from one import recommend,output_recommended_recipes
 st.set_page_config(page_title="Automatic Diet Recommendation", page_icon="💪",layout="wide")
-dataset=pd.read_csv(r'https://github.com/sindhukanumurivs/mealplan/blob/master/recipess.csv')
+dataset=pd.read_csv('https://github.com/sindhukanumurivs/mealplan/blob/master/recipess.csv')
 
 
 nutritions_values=['Calories','FatContent','SaturatedFatContent','CholesterolContent','SodiumContent','CarbohydrateContent','FiberContent','SugarContent','ProteinContent']
