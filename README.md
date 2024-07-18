@@ -1,6 +1,5 @@
-# 🏗️ ML model builder template
+# 🏗️Meal Planneer using Python and Machine Learning
 
-A simple Streamlit app that lets you build simple ML models with scikit-learn. 
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ml-model-builder-template.streamlit.app/)
 
